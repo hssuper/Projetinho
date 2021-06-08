@@ -3,10 +3,10 @@ var frete = 0.5 * (13+1);
 var total = subtotal + frete;
 
 var subResultado = document.getElementById('subtotalvalor');
-subResultado.textContent = subtotal;
+subResultado.textContent = 'R$: ' + subtotal;
 
-var freteResultado = document.getElementById('fretevalor');
-freteResultado.textContent = frete;
+var freteResultado = document.getElementById( 'fretevalor');
+freteResultado.textContent = 'R$: ' + frete;
 
 var totalResultado = document.getElementById('totalvalor');
-totalResultado.textContent = total;
+totalResultado.textContent = 'R$: ' + total;
