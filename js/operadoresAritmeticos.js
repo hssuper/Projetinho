@@ -12,3 +12,4 @@ freteResultado.textContent += real + frete;
 
 var totalResultado = document.getElementById('totalvalor');
 totalResultado.textContent += real + total;
+
