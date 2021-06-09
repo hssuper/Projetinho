@@ -1,21 +1,21 @@
 var hotel = {
-    total: 100,
+    totalQuartos: 70,
     Reservados: 30,
-    ChecaDisponibilidade:function(){
-        return this.quartosHotel = this.quartosReservados + this.reservarQuartos;
+    ChecaDisponibilidade: function () {
+        return this.totalQuartos - this.Reservados;
+    }
     }
 
-}
 
 
 
-var quartosHotel = document.getElementById('HotelQuartos');
-quartosHotel.textContent = this.total;
 
-var quartosReservados = document.getElementById('ReservadosQuartos');
-quartosReservados.textContent = this.Reservados;
+var totalQuartos = document.getElementById('totalQuartos');
+totalQuartos.textContent = hotel.totalQuartos;
 
+var Reservados = document.getElementById('reservados');
+Reservados.textContent = hotel.Reservados;
 
+var disponibilidade = document.getElementById('disponibilidade')
+disponibilidade.textContent = hotel.ChecaDisponibilidade ;
 
-var reservarQuartos = document.getElementById('ReservaQuartos')
-reservarQuartos.textContent += quartosReservados -= quartosHotel;
