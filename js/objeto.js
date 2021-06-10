@@ -15,4 +15,4 @@ quartos.textContent = hotel.totalQuartos;
 var reserva = document.getElementById('reservados');
 reserva.textContent = hotel.reservados;
 
-var disponivel 
+var disponivel   
